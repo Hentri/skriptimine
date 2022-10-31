@@ -1,0 +1,22 @@
+#!/bin/bash
+# busside arvutamise skript
+reisijad=199
+bussis_kohti=40
+
+#echo "$reisijad"
+#echo "$bussis_kohti"
+
+echo -n "Sisesta reisijate arv: "
+read reisijad
+
+echo -n "Sisesta bussis kohatade arv: "
+read bussis_kohti
+
+echo "$reisijad"
+echo "$bussis_kohti"
+
+bussid=$(( $reisijad / $bussis_kohti ))
+echo "$bussid"
+
+maha_jaanud=$(( $reisijad % $bussis_kohti ))
+echo "maha_jaanud"
