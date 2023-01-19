@@ -15,3 +15,4 @@ else
 echo "k2ivita see skript koos arvuga, nt sh yl4.sh 7"
 #l6petan tingimuslause
 fi
+#
