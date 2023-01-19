@@ -12,6 +12,6 @@ then
  fi
 else 
 #kui ei ole siis tagastab k2sk selgitusega
-echo "k2ivita see skript koos arvuga, nt ./yl4.sh 7"
+echo "k2ivita see skript koos arvuga, nt sh yl4.sh 7"
 #l6petan tingimuslause
 fi
